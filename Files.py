@@ -107,9 +107,10 @@ with open("bronx.jpg", "r") as rf:
 
 ###Copying the image starts, without chunks:
 with open("bronx.jpg", "rb") as rf:
-	with open("bronx_copy.jpg", "wb") as wf:
+	with open("bronx_copy_paste.jpg", "wb") as wf:
 		for line in rf:
 			wf.write(line)
+
 
 ###Copying the image with chunks:
 with open("bronx.jpg", "rb") as rf:
